@@ -1,0 +1,21 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: $off-black;
+	font-family: helvetica, Arial, sans-serif;
+	font-size: $m-size;
+}
+
+button {
+	cursor: pointer;
+
+	&:disabled {
+		cursor: default;
+	}
+}
+
+.App {
+	text-align: center;
+}

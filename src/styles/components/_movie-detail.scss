@@ -1,0 +1,22 @@
+.movie-wrapper {
+	position: relative;
+	padding-top: 50vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.movie-info {
+		background: white;
+		text-align: left;
+		padding: 2rem 10%;
+		display: flex;
+
+		> div {
+			margin-left: 20px;
+		}
+
+		img {
+			position: relative;
+			top: -5rem;
+		}
+	}
+}
